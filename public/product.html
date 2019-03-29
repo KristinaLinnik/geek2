@@ -1,27 +1,27 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <title>shop.com</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
           integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="data/css/bootstrap.min.css">
     <link rel="stylesheet" href="data/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="data/css/style.css">
-    <script type="text/javascript" src="data/js/jquery.js"></script>
-    <script type="text/javascript" src="data/js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="data/js/jquery.js"></script>-->
+    <!--<script type="text/javascript" src="data/js/bootstrap.min.js"></script>-->
     <script type="text/javascript" src="data/js/main.js"></script>
 </head>
 <body>
-<div class="wrapper-index-page page-wrap">
+<div class="wrapper-product-page page-wrap">
     <div class="to-bottom-footer">
         <header class="header-custom">
-            <div class="container animate-head">
+            <div class="container">
                 <div class="header-custom-wrap">
                     <div class="left-head">
-                        <a href="#" class="logo-wrap">
+                        <a href="index.html" class="logo-wrap">
                             <img src="data/img/logo.png" alt="logo">
                             <p class="logo-text">BRAN<span class="pink">D</span></p>
                         </a>
@@ -428,164 +428,386 @@
                 </nav>
             </div>
         </header>
-        <div class="brand-banner-wrap">
+        <div class="breadcrambs-bg">
             <div class="container">
-                <div class="brand-banner-img">
-                    <div class="brand-text-wrap">
-                        <h2 class="brand-text-first">THE BRAND</h2>
-                        <h3 class="brand-text-second">OF LUXERIOUS <span class="pink">FASHION</span></h3>
-                    </div>
+                <div class="breadcrumbs-wrap">
+                    <h2 class="product-head">New Arrivals</h2>
+                    <ul class="breadcrambs">
+                        <li class="breadcrambs-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrambs-item"><a href="product.html">Men </a></li>
+                        <li class="breadcrambs-item"><a href="#">New Arrivals</a></li>
+                    </ul>
                 </div>
             </div>
-
         </div>
-        <div class="container">
-            <div class="offers">
-                <div class="block-index block-big" style="background: url('data/img/hot_1.jpg')no-repeat center;">
-                    <div class="label">
-                        <span class="label-text">hOT dEAL</span>
-                        <span class="pink">FOR MEN</span>
+        <div class="container clearfix">
+            <aside class="left-aside">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <button class="category-btn btn" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                            Category
+                            <span class="caret"></span>
+                        </button>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordionExample">
+                            <ul class="card-body category-list">
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Accessories</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Bags</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Denim</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Hoodies & Sweatshirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Jackets & Coats</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Pants</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Polos</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shoes</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shorts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Sweaters & Knits</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">T-Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Tanks</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="category-btn btn collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                            BRAND
+                            <span class="caret"></span>
+                        </button>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                             data-parent="#accordionExample">
+                            <ul class="card-body category-list">
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Accessories</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Bags</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Denim</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Hoodies & Sweatshirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Jackets & Coats</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Pants</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Polos</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shoes</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shorts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Sweaters & Knits</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">T-Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Tanks</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="category-btn btn collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            dESIGNER
+                            <span class="caret"></span>
+                        </button>
+                        <div class="collapse" id="collapseThree" aria-labelledby="headingThree"
+                             data-parent="#accordionExample">
+                            <ul class="card-body category-list">
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Accessories</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Bags</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Denim</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Hoodies & Sweatshirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Jackets & Coats</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Pants</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Polos</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shoes</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Shorts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Sweaters & Knits</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">T-Shirts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="category-link" href="#" data-value="action">Tanks</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="block-index block-mini mr-r"
-                     style="background: url('data/img/hot_3.jpg') no-repeat center;">
-                    <div class="label">
-                        <span class="label-text">LUXIROUS & trendy</span>
-                        <span class="pink">ACCESORIES</span>
+            </aside>
+            <form class="form-filters-wrap" action="#">
+                <fieldset class="trends-wrap-filter">
+                    <legend class="trend-head">Trending now</legend>
+                    <div class="trends-list">
+                        <label for="Bohemian">
+                            <input id="Bohemian" class="trends-checkbox" type="checkbox">Bohemian
+                        </label>
+                        <label for="Floral" class="bor">
+                            <input id="Floral" class="trends-checkbox" type="checkbox">Floral
+                        </label>
+                        <label for="Lace">
+                            <input id="Lace" class="trends-checkbox" type="checkbox">Lace
+                        </label>
+                        <label for="Floral2">
+                            <input id="Floral2" class="trends-checkbox" type="checkbox">Floral
+                        </label>
+                        <label for="Lace2" class="bor">
+                            <input id="Lace2" class="trends-checkbox" type="checkbox">Lace
+                        </label>
+                        <label for="Bohemian2">
+                            <input id="Bohemian2" class="trends-checkbox" type="checkbox">Bohemian
+                        </label>
                     </div>
-                </div>
-                <div class="block-index block-mini" style="background: url('data/img/hot_2.jpg') no-repeat center;">
-                    <div class="label">
-                        <span class="label-text">30% offer</span>
-                        <span class="pink">women</span>
+                </fieldset>
+                <fieldset class="size-wrap-filter">
+                    <legend class="size-filter-head">Size</legend>
+                    <div class="size-checkbox-wrap">
+                        <p class="wrap-line">
+                            <input id="XXS" class="checkbox-size" type="checkbox">
+                            <label for="XXS">XXS</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="XS" class="checkbox-size" type="checkbox">
+                            <label for="XS">XS</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="S" class="checkbox-size" type="checkbox">
+                            <label for="S">S</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="M" class="checkbox-size" type="checkbox">
+                            <label for="M">M</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="L" class="checkbox-size" type="checkbox">
+                            <label for="L">L</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="XL" class="checkbox-size" type="checkbox">
+                            <label for="XL">XL</label>
+                        </p>
+                        <p class="wrap-line">
+                            <input id="XXL" class="checkbox-size" type="checkbox">
+                            <label for="XXL">XXL</label>
+                        </p>
                     </div>
-                </div>
-                <div class="block-index block-big" style="background: url('data/img/hot_4.jpg') no-repeat center;">
-                    <div class="label">
-                        <span class="label-text">new arrivals</span>
-                        <span class="pink">FOR kids</span>
-                    </div>
-                </div>
-            </div>
-            <section class="shop-wrap">
-                <h2 class="shop-head">Fetured Items</h2>
-                <p class="head-desc">Shop for items based on what we featured in this week</p>
+                </fieldset>
+                <fieldset class="price-wrap-filter">
+                    <legend class="">pRICE</legend>
+                    <input id="range" type="range" value="10" step="0.1">
+                    <p class="price-range-wrap">
+                        <span>$<output name="result" for="range">52</output></span>
+                        <span>$<output name="result" for="range">400</output></span>
+                    </p>
+                </fieldset>
+            </form>
+            <form action="#" class="sort-form">
+                <fieldset class="sort-brands">
+                    <label for="sort">Sort By</label>
+                    <select id="sort">
+                        <option value="brand1">Mango</option>
+                        <option value="brand2">Mango</option>
+                        <option value="brand3">Mango</option>
+                    </select>
+
+                </fieldset>
+                <fieldset class="sort-counts">
+                    <label for="count">Show</label>
+                    <select id="count">
+                        <option value="brand1">8</option>
+                        <option value="brand2">12</option>
+                        <option value="brand3">16</option>
+                    </select>
+
+                </fieldset>
+            </form>
+            <div class="shop-wrap">
                 <ul class="shop-item-wrap">
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_1.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_1.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
                         <a class="shop-item-link" href="#" style="background: url('data/img/product_2.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_3.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_3.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_4.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_4.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_5.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_5.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_6.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_6.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_7.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_7.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                     <li class="shop-item">
-                        <a class="shop-item-link" href="single-page.html"
-                           style="background: url('data/img/product_8.jpg');">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_8.jpg');">
                         </a>
                         <a href="#" class="add-to-card">Add to card</a>
-                        <a href="single-page.html" class="item-brand">Mango People T-shirt</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
+                        <p class="item-price pink">$52.00</p>
+                    </li>
+                    <li class="shop-item">
+                        <a class="shop-item-link" href="#" style="background: url('data/img/product_8.jpg');">
+                        </a>
+                        <a href="#" class="add-to-card">Add to card</a>
+                        <a href="#" class="item-brand">Mango People T-shirt</a>
                         <p class="item-price pink">$52.00</p>
                     </li>
                 </ul>
-                <a href="product.html" class="see-more-btn same-style">
-                    <span>Browse All Product</span>
-                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                </a>
-            </section>
-            <div class="black-section-wrap">
-                <div class="black-section-left">
-                    <div class="heading-wrap">
-                        <h2 class="bigger-head">30% <span class="pink">OFFER</span></h2>
-                        <h3 class="smaller-head">FOR WOMEN</h3>
-                    </div>
-                </div>
-                <div class="black-section-right">
-                    <ul class="desc-sale-wrap">
-                        <li class="desc-sale-item">
-                            <article>
-                                <div class="desc-wrap">
-                                    <h4 class="head-text">Free Delivery</h4>
-                                    <p class="desc-text">Worldwide delivery on all.
-                                        Authorit tively morph next-generation innov tion with extensive models.</p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="desc-sale-item">
-                            <article>
-                                <div class="desc-wrap">
-                                    <h4 class="head-text">Sales & discounts</h4>
-                                    <p class="desc-text">Worldwide delivery on all. Authorit tively morph
-                                        next-generation
-                                        innov tion with extensive models.</p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="desc-sale-item">
-                            <article>
-                                <div class="desc-wrap">
-                                    <h4 class="head-text">Quality assurance</h4>
-                                    <p class="desc-text">Worldwide delivery on all. Authorit tively morph
-                                        next-generation
-                                        innov tion with extensive models.</p>
-                                </div>
-                            </article>
-                        </li>
+                <div class="pag-wrap">
+                    <ul class="pagination pagination-sm justify-content-start custom-pag">
+                        <li class="page-item"><a class="page-link" href="#">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </a></li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link active" href="#">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                     </ul>
+                    <a href="#" class="see-more-btn same-style">
+                        <span>Browse All Product</span>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </a>
                 </div>
-
+            </div>
+        </div>
+        <div class="product-black-section">
+            <div class="container">
+                <ul class="product-sale-wrap">
+                    <li class="product-sale-item">
+                        <article>
+                            <div class="product-desc-wrap">
+                                <h4 class="head-text">Free Delivery</h4>
+                                <p class="desc-text">Worldwide delivery on all.
+                                    Authorit tively morph next-generation innov tion with extensive models.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="product-sale-item">
+                        <article>
+                            <div class="product-desc-wrap">
+                                <h4 class="head-text">Sales & discounts</h4>
+                                <p class="desc-text">Worldwide delivery on all. Authorit tively morph next-generation
+                                    innov tion with extensive models.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="product-sale-item">
+                        <article>
+                            <div class="product-desc-wrap">
+                                <h4 class="head-text">Quality assurance</h4>
+                                <p class="desc-text">Worldwide delivery on all. Authorit tively morph next-generation
+                                    innov tion with extensive models.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="subscribe">
-            <div class="container">
-                <div class="reviews">
+            <div class="container clearfix">
+                <div class="reviews clearfix">
                     <div class="review-block">
                         <div class="avatar-wrap">
                             <img src="data/img/avatar_icon.png" alt="avatar-icon">
@@ -660,10 +882,10 @@
                     </ul>
                 </div>
             </div>
+
         </div>
     </div>
     <footer>
-
         <div class="bottom-foot-wrap">
             <div class="container">
                 <div class="bottom-foot-info">
@@ -707,4 +929,3 @@
 
 </body>
 </html>
-
